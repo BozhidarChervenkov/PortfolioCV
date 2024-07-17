@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -33,6 +31,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to='education' smooth={true} duration={500}>
+            Education
+          </Link>
+        </li>
+        <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
@@ -43,8 +46,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
+          <Link to='personalProjects' smooth={true} duration={500}>
+            Personal Projects
           </Link>
         </li>
         <li>
@@ -78,6 +81,12 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
+            Education
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
@@ -85,13 +94,13 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='professionalExperience' smooth={true} duration={500}>
-          Professional Experience
+            Professional Experience
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='personalProjects' smooth={true} duration={500}>
+            Personal Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
