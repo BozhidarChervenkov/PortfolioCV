@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => { 
+const About = () => {
   return (
     <div
       name="about"
@@ -18,19 +18,17 @@ const About = () => {
             <div></div>
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
+            <div className="sm:text-left text-3xl font-bold">
               <p>
-                Hi. I'm Taminoturoko Briggs, nice to meet you. Please take a
-                look around.
+                Hi, I'm Bozhidar Chervenkov. It's nice to meet you. Please feel free to look around.
               </p>
             </div>
-            <div>
+            <div className="justify-text">
               <p>
                 {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps. I am well-knowledged in UI/UX principles and
-                practices. In addition to software development, I am also a
-                technical writer--simplifying topics/concepts on the web.
+                I am a software developer with experience in building responsive and scalable web applications.
+                I possess strong knowledge in backend development principles and best practices.
+                I thrive when working with a team to create the best possible products, and I love creating websites that are both functional and beautiful.
               </p>
             </div>
           </div>
