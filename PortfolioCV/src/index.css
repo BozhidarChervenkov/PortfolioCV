@@ -30,3 +30,10 @@
 .justify-text {
     text-align: justify;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+}

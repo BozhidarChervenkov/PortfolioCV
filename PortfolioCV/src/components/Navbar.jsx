@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
@@ -35,6 +35,11 @@ const Navbar = () => {
         <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='professionalExperience' smooth={true} duration={500}>
+            Professional Experience
           </Link>
         </li>
         <li>
@@ -75,6 +80,12 @@ const Navbar = () => {
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='professionalExperience' smooth={true} duration={500}>
+          Professional Experience
           </Link>
         </li>
         <li className='py-6 text-4xl'>
