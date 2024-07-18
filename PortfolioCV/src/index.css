@@ -1,3 +1,4 @@
+/* Tailwind CSS region for most of the app styling*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +15,53 @@
     }
 }
 
+/* Plain CSS region for specific page styling*/
+
+/* Professional experience page */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+
+/* Education page */
+.education-container {
+    font-size: 1.3rem; /* 24px */
+    line-height: 2rem;
+    width: 800px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #155e75;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.education-item .date {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+.education-img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 5px;
+    border-radius: 3%;
+}
+
+.education-description{   
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .education-container {
+        padding: 10px;
+    }
+}
+
+/* Personal project's page */
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,15 +73,4 @@
     background-image: linear-gradient(to right,
             rgba(112, 157, 255, 0.8),
             hsla(242, 74%, 61%, 0.8)) !important;
-}
-
-.justify-text {
-    text-align: justify;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Adjust as needed */
 }

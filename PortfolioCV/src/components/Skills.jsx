@@ -89,7 +89,7 @@ const Skills = () => {
                         <p className='my-4'>BOOTSTRAP</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <p className='my-4'>REGEX</p>
+                        <p className='my-4'>TAILWIND CSS</p>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ const ProfessionalExperience = () => {
     return (
         <div name='professionalExperience' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
             <div className='pb-8 w-full flex justify-center items-center flex-col'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500 '>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500 mt-28'>
                     Professional Experience
                 </p>
 
