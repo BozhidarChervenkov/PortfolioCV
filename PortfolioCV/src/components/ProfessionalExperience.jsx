@@ -6,7 +6,7 @@ const ProfessionalExperience = () => {
                     Professional Experience
                 </p>
 
-                <div className="flex flex-col justify-center items-center w-full h-full mt-10">
+                <div className="flex flex-col justify-center items-center w-full h-full mt-10 hover:bg-cyan-800 hover:scale-110 duration-500">
                     <div className=" py-16 rounded-md bg-cyan-800 flex flex-col justify-center items-center w-4/6">
                         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                             <div className="sm:text-left text-3xl font-bold">
@@ -24,7 +24,7 @@ const ProfessionalExperience = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center w-full h-full mt-10">
+                <div className="flex flex-col justify-center items-center w-full h-full mt-10 hover:bg-cyan-800 hover:scale-110 duration-500">
                     <div className=" py-16 rounded-md bg-cyan-800 flex flex-col justify-center items-center w-4/6">
                         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                             <div className="sm:text-left text-3xl font-bold">

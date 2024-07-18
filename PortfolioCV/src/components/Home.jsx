@@ -10,7 +10,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Web Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md justify-text">
+          <p className="text-xl text-gray-500 py-4 max-w-md text-center">
             With over two years of experience in web development, I continually hone my skills, always seeking new challenges and opportunities for growth.
             My go-to technologies are C#, JavaScript, and React, which I use to deliver seamless and interactive user experiences.
           </p>
@@ -19,7 +19,12 @@ const Home = () => {
               to="about"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="ml-36
+              group
+               text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+               from-cyan-500
+               to-blue-500 cursor-pointer
+               hover:bg-cyan-800 hover:scale-110 duration-500"
             >
               About Me
               <span className="group-hover:rotate-90 duration-300">

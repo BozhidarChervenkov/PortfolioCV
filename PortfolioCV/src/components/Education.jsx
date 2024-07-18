@@ -8,7 +8,7 @@ const Education = () => {
                 </div>
 
                 {/* SoftUni item */}
-                <div className="education-container">
+                <div className="education-container hover:bg-cyan-800 hover:scale-110 duration-500">
                     <div>
                         <div className="image-container">
                             <img className="education-img" src="/universityLogos/softUniLogo.png" alt="SoftUniLogo" />
@@ -21,7 +21,7 @@ const Education = () => {
                 </div>
 
                 {/* Academic Lyudmil Stoyanov item */}
-                <div className="education-container">
+                <div className="education-container hover:bg-cyan-800 hover:scale-110 duration-500">
                     <div>
                         <div className="image-container">
                             <img className="education-img" src="/universityLogos/egLogo.jpg" alt="SWU logo" />
@@ -34,7 +34,7 @@ const Education = () => {
                 </div>
 
                 {/* South-West University Neofit Rilski item */}
-                <div className="education-container">
+                <div className="education-container hover:bg-cyan-800 hover:scale-110 duration-500">
                     <div>
                         <div className="image-container">
                             <img className="education-img" src="/universityLogos/swuLogo.jpg" alt="Language school logo" />
