@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "react-feather"
 
-export default function Carousel({
+function Carousel({
   children: slides,
   autoSlide = false,
   autoSlideInterval = 3000,
@@ -37,7 +37,7 @@ export default function Carousel({
           onClick={next}
           className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-        <ChevronRight size={40} />
+          <ChevronRight size={40} />
         </button>
       </div>
 
@@ -56,3 +56,5 @@ export default function Carousel({
     </div>
   )
 }
+
+export default Carousel;

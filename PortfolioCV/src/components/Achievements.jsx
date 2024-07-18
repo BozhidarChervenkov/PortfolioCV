@@ -1,7 +1,17 @@
 import Carousel from "./Helpers/Carousel";
 
 const slides = [
+    '/certificates/Programming Basics with C Sharp Honorable mention.jpeg',
+    '/certificates/C Sharp Advanced Certificate.jpeg',
+    '/certificates/C Sharp OOP Certificate.jpeg',
+    '/certificates/Entity Framework Core Certificate.jpeg',
+    '/certificates/Databases Basics - MS SQL Server  Certificate.jpeg',
     '/certificates/ASP.NET Core  Certificate.jpeg',
+    '/certificates/JS Back-End  Certificate.jpeg',
+    '/certificates/JS Advanced Certificate.jpeg',
+    '/certificates/JS Applications Certificate.jpeg',
+    '/certificates/ReactJS  Certificate.jpeg',
+    '/certificates/HTML & CSS Certificate.jpeg'
 ];
 
 const Achievements = () => {
@@ -16,7 +26,7 @@ const Achievements = () => {
                     <Carousel >
                         {
                             slides.map((s) => (
-                                <img className = "certificates-img" src={s} />
+                                <img className="certificates-img" src={s} alt="Certificate" />
                             ))
                         }
                     </Carousel>

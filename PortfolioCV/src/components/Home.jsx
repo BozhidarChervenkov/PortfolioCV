@@ -1,6 +1,5 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/me.png';
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -31,9 +30,9 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={me}
+            src="/myImages/me.jpg"
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-3xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>

@@ -43,4 +43,5 @@ const PersonalProjects = () => {
     </div>
   );
 };
+
 export default PersonalProjects;
