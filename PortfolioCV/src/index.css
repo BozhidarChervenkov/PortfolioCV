@@ -74,3 +74,12 @@
             rgba(112, 157, 255, 0.8),
             hsla(242, 74%, 61%, 0.8)) !important;
 }
+
+/* Achievements page */
+.certificates-img{
+    margin-top: 15px;
+    width: 32rem;
+    height: 48rem;
+    margin-right: 5px;
+    border-radius: 3%;
+}
