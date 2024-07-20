@@ -35,6 +35,6 @@ const Achievements = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Achievements;
