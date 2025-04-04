@@ -11,8 +11,8 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-xl text-gray-500 py-4 max-w-md text-center">
-            With over two years of experience in web development, I continually hone my skills, always seeking new challenges and opportunities for growth.
-            My go-to technologies are C#, JavaScript, and React, which I use to deliver seamless and interactive user experiences.
+            With over three years of experience in web development, I continually hone my skills, always seeking new challenges and opportunities for growth.
+            My go-to technologies are C#, .NET Core, JavaScript, and React, which I use to deliver seamless and interactive user experiences.
           </p>
           <div>
             <Link
